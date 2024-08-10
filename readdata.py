@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # read sheets
 CBG = pd.read_excel('/workspaces/Dissertation1/Haiyan - Chinese Corporate Bond Data.xlsx', sheet_name=[0,1])
 # sheet2 = pd.read_excel('/workspaces/Dissertation1/Haiyan - Chinese Corporate Bond Data.xlsx', sheet_name='Market & Stock Premium')
-ewl=10
+ewl=-10
 ewr=10
 def error(params, x, y):
     a, b = params
